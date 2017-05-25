@@ -5,23 +5,16 @@
 	<title></title>
   <script src='app/controller/guardianApi.js'></script>
 
+
 </head>
 
 <body>
 <h1>Welcome to Guardian Headlines App</h1>
-<script>
 
-  function displayHeadlinesList() {
-    document.body.insertAdjacentHTML('beforeend', "<ol id = 'list' ></ol>");
-    for (i = 0; i < headlinesArray.length; i++) {
-      document.getElementById('list').insertAdjacentHTML('afterbegin',
-        '<li><a href=#' + i + '>' + headlinesArray[i] + '</a></li>');
-    }
-  }
-
-</script>
+<ul id="headlines"></ul>
 
 
+  <script src='app/view/render.js'></script>
 </body>
 
 </html>
