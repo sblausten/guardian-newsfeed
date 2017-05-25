@@ -1,13 +1,11 @@
 (function() {
   'use strict';
 
-  require ('../framework.js');  
-
   describe("displays headlines");
     function LoadHeadlineDoubles() {
       return ["Headline 1", "Headline 2", "Headline 3", "Headline 4", "Headline 5"];
     }
-    console.log(1);
+    console.log(window);
     window.location = 'http://localhost:8080/';
     console.log(2);
     console.log(window);
