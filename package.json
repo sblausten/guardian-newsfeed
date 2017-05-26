@@ -18,7 +18,8 @@
     "url": "https://github.com/sblausten/guardian-newsfeed/issues"
   },
   "homepage": "https://github.com/sblausten/guardian-newsfeed#readme",
-  "devDependencies": {
+  "dependencies": {
+    "guardian-js": "^1.0.8",
     "http-server": "^0.10.0"
   }
 }
