@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "http-server ./public/index.html -o"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,8 @@
     "url": "https://github.com/sblausten/guardian-newsfeed/issues"
   },
   "homepage": "https://github.com/sblausten/guardian-newsfeed#readme",
-  "devDependencies": {
+  "dependencies": {
+    "guardian-js": "^1.0.8",
     "http-server": "^0.10.0"
   }
 }
