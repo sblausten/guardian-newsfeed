@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ."
+    "start": "http-server . -o"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "dependencies": {
     "guardian-js": "^1.0.8",
     "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
   }
 }

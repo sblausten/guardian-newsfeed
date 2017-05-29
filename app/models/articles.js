@@ -5,3 +5,5 @@ function Articles(){
 Articles.prototype.saveArticle = function (article) {
 	this.articles.push(article);
 };
+
+module.exports = Articles;
