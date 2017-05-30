@@ -2,8 +2,12 @@ function Articles(){
   this.articles = [];
 }
 
-Articles.prototype.saveArticle = function (article) {
+Articles.prototype.updateArticles = function (article) {
 	this.articles.push(article);
 };
 
-module.exports = Articles;
+Articles.prototype.getArticles = function () {
+	return this.articles;
+};
+
+return Articles;
